@@ -73,7 +73,7 @@ public class LoadBalancing {
         if (p < 1) {
             System.out.println("incorrect input for p");
         }
-        
+
         int minimum = 1;
         while (!isFeasibleLoad(jobSizes, minimum, p)) {
             minimum = minimum * 2;
